@@ -18,19 +18,16 @@ public class Foo implements IFoo {
     }
 
 
-    @Override
     public IBaz getBaz() {
         return this.baz;
     }
 
-
-    @Override
     public List<IBar> getBars() {
         return this.bars;
     }
 
+    // Getter pour qux
 
-    @Override
     public IQux getQux() {
         return this.qux;
     }
@@ -55,7 +52,6 @@ public class Foo implements IFoo {
         }
         this.bars.add(bar);
     }
-
 
 }
 

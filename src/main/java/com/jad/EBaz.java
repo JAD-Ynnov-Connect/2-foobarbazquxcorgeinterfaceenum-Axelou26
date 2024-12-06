@@ -14,7 +14,6 @@ public enum EBaz implements IBaz {
     }
 
 
-    @Override
     public String getName() {
         return this.name;
     }
